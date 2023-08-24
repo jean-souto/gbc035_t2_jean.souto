@@ -1,0 +1,6 @@
+public class ex7 {
+
+    public static void main (String[] args) {
+        int[] alunos = new int[5];
+    }
+}
