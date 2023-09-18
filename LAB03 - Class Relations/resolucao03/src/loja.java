@@ -1,14 +1,12 @@
 public class loja {
     private String nome;
     private String categoria;
-    private setor setor = new setor();
+    private setor setor;
 
-    public loja (String nome, String categoria, setor setor) {
+    public loja (String nome, String categoria, String nome_setor, int quant_setor, String item_setor) {
         this.nome = nome;
         this.categoria = categoria;
-        this.setor.setNome(setor.getNome());
-        this.setor.setItemPrincipal(setor.getItemPrincipal());
-        this.setor.setQuant(setor.getQuant());
+        setor = new setor(nome_setor, item_setor, quant_setor);
     }
 
     public String getNome() {
