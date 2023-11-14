@@ -18,6 +18,9 @@ Adicionalmente
 
 # Ex02
  
-- Qual a diferença entre o throw e throws ? Justifique explicado o que cada comando faz
+- Qual a diferença entre o throw e throws ? Throws é o comando que permite coletar o erro e enviar ele para a classe que chamou o método. Ele recebe o erro e passa pro próximo.
+O throw é o comando que permite "personalizar" o erro. É como se o programador pudesse criar seus próprios erros personalizados.
 
-- Indique a diferença entre checked e uncheked exceptions
+- Indique a diferença entre checked e uncheked exceptions:
+Checked: São exceções que devem OBRIGATÓRIAMENTE ser capturadas para que o programa funcione.
+Unchecked: São excecões que não precisam OBRIGATÓRIAMENTE ser capturadas. O programa pode funcionar sem que esse tipo de exceção seja capturada.
